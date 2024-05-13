@@ -31,9 +31,14 @@
 4. 将分类结果和分割结果返回给前端
 
 ## 文件结构
-- `Front-End_Nodule-Sorting-system`: 前端app代码
+- `Front-End_Nodule-Sorting-system`: 前端代码
 - `Back-End_Nodule-Sorting-System`: 后端代码
 - `img`: 测试样例
+
+##数据集
+- 该项目使用来自Cancer Imaging Archive的LIDC-IDRI数据集。该数据集由美国国立癌症研究所（NCI）赞助，旨在促进肺部癌症影像学的研究和发展。数据集包括1010个CT扫描图像和医学专家标注的结果，用于评估肺部结节的诊断和治疗。
+- 数据集可以从以下链接中获得：
+- [LIDC-IDRI数据集](https://www.cancerimagingarchive.net/nbia-search/?CollectionCriteria=LIDC-IDRI)。
 
 ## 注意事项
 - 确保训练数据和测试数据格式正确
