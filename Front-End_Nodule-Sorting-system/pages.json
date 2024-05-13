@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style" :
+			{
+				"navigationBarTitleText" : "登录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style" :
+			{
+				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/analyse/analyse",
+			"style" :
+			{
+				"navigationBarTitleText" : "分析",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/mainFunction/mainFunction",
+			"style" :
+			{
+				"navigationBarTitleText" : "辅助诊断",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style" :
+			{
+				"navigationBarTitleText" : "历史",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+		
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/analyse/analyse",
+				"text": "分析"
+			},
+			{
+				"pagePath": "pages/mainFunction/mainFunction",
+				"text": "诊断"
+			},
+			{
+				"pagePath": "pages/history/history",
+				"text": "历史"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的"
+			}
+			
+		]
+	},
+	
+	"uniIdRouter": {}
+}
